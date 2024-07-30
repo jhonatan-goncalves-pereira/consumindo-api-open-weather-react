@@ -9,7 +9,7 @@ function App() {
 
   async function searchCity() {
     const city = inputRef.current.value
-    const key = "a5711a91fefb37ec73c795feb574bb8e"
+    const key = import.meta.env.VITE_OPENWEATHER_API_KEY
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}&lang=pt_br&units=metric`
 
     try {
