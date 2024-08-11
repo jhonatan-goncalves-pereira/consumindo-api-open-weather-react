@@ -31,8 +31,8 @@ function App() {
   }
 
   return (
-    <div>
-      <h1>JhonDev Previsão do tempo</h1>
+    <div className='container'>
+      <h1>DevAJhon Previsão do tempo</h1>
       <input ref={inputRef} type="text" placeholder='Digite o nome da cidade' />
       <button onClick={searchCity}>Buscar</button>
 
